@@ -1,0 +1,115 @@
+/*导航条*/
+.dht ul{list-style-type:none;margin:0;padding:0;overflow:hidden;background-color:#bebebe;}
+.dht li{float:left;}
+.dht a:link,a:visited{display:block;width:105px;color:#FFFFFF;background-color:#bebebe;
+text-align:center;padding:4px;text-decoration:none;text-transform:uppercase;}
+.dht a:hover,a:active{background-color:#cc0000;}
+/*轮播图*/
+
+.imgBox{
+  border-top: 2px solid cadetblue;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+
+}
+
+.imgBox img{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding-top: 30px;
+
+}
+
+.img1{
+  display: block;
+}
+
+.img2{
+  display: none;
+}
+
+.img3{
+  display: none;
+}
+/*图片新闻*/
+.jryy li{list-style: none;}
+.zkjj li{list-style: none;}
+.zjft li{list-style: none;}
+
+/*媒体聚集*/
+/*
+*{margin: 0;padding: 0;}
+*/
+.mtjj{margin: 0;padding: 0;}
+
+._area{
+    height:250px;
+    width: 1200px;
+    perspective: 3000px;
+    perspective-origin: 599px 146px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.box{
+    height: 150px;
+    width: 300px;
+    transform: rotateX(-8deg);
+    transform-style: preserve-3d;
+    transition-duration: 1s;
+    margin: 0 auto;
+}
+.mtjj img{
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    cursor: pointer;
+}
+.mtjj img:nth-child(1){
+    transform: rotateY(0deg) translateZ(400px);
+    
+}
+.mtjj img:nth-child(2){
+    transform: rotateY(45deg) translateZ(400px);
+}
+.mtjj img:nth-child(3){
+    transform: rotateY(90deg) translateZ(400px);
+}
+.mtjj img:nth-child(4){
+    transform: rotateY(135deg) translateZ(400px);
+}
+.mtjj img:nth-child(5){
+    transform: rotateY(180deg) translateZ(400px);
+}
+.mtjj img:nth-child(6){
+    transform: rotateY(225deg) translateZ(400px);
+}
+.mtjj img:nth-child(7){
+    transform: rotateY(270deg) translateZ(400px);
+}
+.mtjj img:nth-child(8){
+    transform: rotateY(315deg) translateZ(400px);
+}
+.mtjj ul{
+    list-style: none;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);                
+}
+.mtjj li{
+    background-color: #000;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+}
+/*视频新闻*/
+.spxw li{border-bottom:1px dotted #999;}
+
+/*科室导航*/
+.img{float: left;}
+.spxw li{display: block;padding-left: 20px;}
